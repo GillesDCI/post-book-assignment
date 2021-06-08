@@ -48,19 +48,39 @@ app.listen(4000, () => {
   4. Assign route applications to their respective route. `/post`
 
 
-## Task 4 - Create a GET request in postsRoutes.js
-  1. Create a GET request which exposes all the posts from dataposts.json
+## Task 4 - Create route handlers in postsRoutes.js
+  1. Create a GET route handler `/post/posts/` which exposes all the posts from dataposts.js
+
+  2. Create a POST route handler `/post/newpost/` which allows you to add a new post using the body: 
+     ```json
+      {
+          "title":"My title",
+          "content":"The content of the newly created post"
+      }
+   ```
+    Make sure the POST route handler automatically assigns the highest id to the new post :
+    ```javascript 
+      maxId = Math.max.apply(Math, data.map(function(o) { return o.id; }));
+    ```
+   
 
 ## Task 5 - Configure Cors
  1. Install the cors module
     `npm i cors`
  2. Import the cors module in `server.js` using require
- 3. Configure cors module to accept all origins using app.use : 
+ 3. Configure the server to accept all origins using app.use : 
    ```javascript
       app.use(cors());
    ```
 
-## Task 6 - Clone the bootstrap project and test whether it works 
+
+## Task 6 - Test everything
+ 1. Test your backend using postman or insomnia. 
+
+
+
+ 
+
 
 
 
