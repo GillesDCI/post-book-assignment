@@ -54,7 +54,13 @@ app.listen(4000, () => {
 ## Task 5 - Configure Cors
  1. Install the cors module
     `npm i cors`
+ 2. Import the cors module in `server.js` using require
+ 3. Configure cors module to accept all origins using app.use : 
+   ```javascript
+      app.use(cors());
+   ```
 
+## Task 6 - Clone the bootstrap project and test whether it works 
 
 
 
