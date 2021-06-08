@@ -57,11 +57,13 @@ app.listen(4000, () => {
           "title":"My title",
           "content":"The content of the newly created post"
       }
-   ```
-    Make sure the POST route handler automatically assigns the highest id to the new post :
-    ```javascript 
+     ```
+
+
+  3. Make sure the POST route handler automatically assigns the highest id to the new post :
+   ```javascript
       maxId = Math.max.apply(Math, data.map(function(o) { return o.id; }));
-    ```
+   ```
    
 
 ## Task 5 - Configure Cors
@@ -71,7 +73,7 @@ app.listen(4000, () => {
  3. Configure the server to accept all origins using app.use : 
    ```javascript
       app.use(cors());
-   ```
+   ````
 
 
 ## Task 6 - Test everything
