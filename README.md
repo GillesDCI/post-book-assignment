@@ -81,7 +81,7 @@ app.listen(4000, () => {
 
 
 ## Bonus - exercise (optional)
-- Link to bonus exercise for when you're with connecting the react app: 
+- Link to bonus exercise for when you're ready with connecting the react app: 
   [Bonus](./BONUS.md) 
 
 
