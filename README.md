@@ -81,8 +81,8 @@ app.listen(4000, () => {
 
 
 ## Bonus - exercise
-
- 
+- Link to bonus exercise for when you're ready: 
+  [Bonus](./BONUS.md) 
 
 
 
