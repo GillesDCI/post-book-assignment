@@ -80,7 +80,7 @@ app.listen(4000, () => {
  1. Test your backend using postman or insomnia. 
 
 
-## Bonus - exercise
+## Bonus - exercise (optional)
 - Link to bonus exercise for when you're with connecting the react app: 
   [Bonus](./BONUS.md) 
 
