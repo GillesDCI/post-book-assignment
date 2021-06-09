@@ -13,7 +13,7 @@ This is the bonus exercise for when you're ready with the frontend and backend.
      ```json
       {
           "title":"My title",
-          "content":"The content of the newly created post"
+          "content":"The content of my updated post"
       }
      ```
 
