@@ -29,7 +29,7 @@ This project assumes you've already had experience with:
 
 ##### starter code
 ```javascript
-const express = require('express');
+import express from 'express'
 const app = express();
 
 app.use(express.urlencoded({extended:true}));
